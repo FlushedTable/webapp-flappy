@@ -1,11 +1,5 @@
 // the Game object used by the phaser.io library
 var stateActions = { preload: preload, create: create, update: update };
-var server = app.listen((process.env.PORT || 8080), function() {
-  var host = server.address().address;
-  var port = server.address().port;
-
-  console.log("The Gawley's Flappy Birdy listening at http://%s:%s", host, port);
-});
 
 // Phaser parameters:
 // - game width
