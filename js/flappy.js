@@ -91,7 +91,7 @@ function update() {
   }
   } for(var w = weights.length - 1; w >= 0; w--) {
     if (weights[w].body.x < 0) {
-      weights[w].destory();
+      weights[w].destroy();
       weights.splice(w, 1);
     } else {
       game.physics.arcade.overlap(player, balloons[w], function() {
