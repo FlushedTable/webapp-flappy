@@ -1,0 +1,110 @@
+<DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Flappy Birdy</title>
+  <link rel="stylesheet" href="../assets/style.css"/>
+  <link rel="stylesheet" href="../lib/bootstrap.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script type="text/javascript" src="../lib/jquery.js"></script>
+  <script type="text/javascript" src="../lib/phaser.min.js"></script>
+  <script type="text/javascript" src="../js/flappy.js"></script>
+
+  <script type="text/javascript">
+  (function(d){
+    var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT'); //pinterest api
+      p.type = 'text/javascript';
+      p.async = true;
+      p.src = '//assets.pinterest.com/js/pinit.js';
+      f.parentNode.insertBefore(p, f);
+    }(document));
+  </script>
+
+  <script type="text/javascript">
+  (function() {
+    var li = document.createElement('script'); li.type = 'text/javascript'; li.async = true;
+    li.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//platform.stumbleupon.com/1/widgets.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(li, s);
+  })();
+  </script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+    <div align ="center">
+    <h1>Flappy Birdy!</h1>
+      <div id="game">
+    </div>
+</div>
+
+<div class="container">
+  <div align="center">
+  <h1>More info</h1>
+  <div class="row">
+  <div align="center">
+  <div class="col-sm-12">
+    <button type="button" class="btn btn-default btn-block" id="creditsbtn">Credits</button>
+    <div id="dialog" title="Credits">
+      <p>Created by Joshua and Nicholas Gawley with the help of the awesome team at CCA. I also encourage you to check out my friend's nature photography Twitter page at @NaturePix_, as he uploads some incredible pictures</p>
+  </div>
+  </div>
+</div>
+</div>
+
+<div class="container">
+  <div class="row">
+  <div align="center">
+    <div class="col-sm-12">
+      <button type="button" class="btn btn-default btn-block" id="helpbtn">Help</button>
+      <div id="help" title="Help">
+        <p>To play Flappy Birdy</p>
+        <ul>
+          <li>Press the spacebar to make the bird jump</li>
+          <li>Avoid the pipes at all costs</li>
+          <li>Beware of balloons and weights</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div align="center">
+      <div class="col-sm-12">
+        <button type="button" class="btn btn-default btn-block" id="scores">Scores</button>
+        <div id="content"
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div align="center">
+  <h1>Please share our game!</h1>
+  <div class="row">
+
+    <div class ="col-sm-4">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-hashtags="flappybirdy" data-related="A1phabeta,NaturePix_" data-show-count="false">Tweet</a>
+      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
+    <div class="col-sm-4">
+      <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false">
+      <img src="//www.redditstatic.com/spreddit10.gif" alt="submit to reddit" border="0" />
+    </a>
+    </div>
+
+    <div class="col-sm-4">
+      <su:badge layout="5">
+      </su:badge>
+    </div>
+  </div>
+</div>
+
+</body>
+</DOCTYPE html>
